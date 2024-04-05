@@ -1,10 +1,57 @@
+.discoverTheVirtualContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 116.6%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.aWellDesignedGaming {
+  width: 463px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  font-family: var(--font-lato);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.callToAction,
+.discoverTheVirtualRealityGParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discoverTheVirtualRealityGParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
 .callToAction {
   align-self: stretch;
-  display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
+  padding: 0 0 0 var(--padding-sm);
   box-sizing: border-box;
-  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-ondo);
+}
+@media screen and (max-width: 800px) {
+  .discoverTheVirtualContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverTheVirtualContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
 }

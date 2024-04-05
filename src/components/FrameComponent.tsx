@@ -2,10 +2,10 @@ import { FunctionComponent } from "react";
 import QuoteBlock from "./QuoteBlock";
 import styles from "./FrameComponent.module.css";
 
-const FrameComponent: FunctionComponent = () => {
+const FrameComponent2: FunctionComponent = () => {
   return (
-    <section className={styles.testimonialContainerWrapper}>
-      <div className={styles.testimonialContainer}>
+    <section className={styles.callToActionWrapper}>
+      <div className={styles.callToAction}>
         <div className={styles.testimonialPanel}>
           <QuoteBlock
             quoteBox="/quote-box@2x.png"
@@ -26,14 +26,10 @@ const FrameComponent: FunctionComponent = () => {
             propRight="33.7px"
           />
         </div>
-        <div className={styles.socialEngagementPanelWrapper}>
+        <div className={styles.socialMediaIcons}>
           <div className={styles.socialEngagementPanel}>
-            <div className={styles.socialMediaIcons}>
-              <img
-                className={styles.socialMediaIconsChild}
-                alt=""
-                src="/group-39.svg"
-              />
+            <div className={styles.socialEngagementPanelInner}>
+              <img className={styles.frameChild} alt="" src="/group-39.svg" />
             </div>
             <img
               className={styles.engagementIndicatorIcon}
@@ -42,7 +38,7 @@ const FrameComponent: FunctionComponent = () => {
             />
             <div className={styles.socialMediaIcons1}>
               <img
-                className={styles.socialMediaIconsItem}
+                className={styles.socialMediaIconsChild}
                 alt=""
                 src="/group-40.svg"
               />
@@ -54,4 +50,4 @@ const FrameComponent: FunctionComponent = () => {
   );
 };
 
-export default FrameComponent;
+export default FrameComponent2;

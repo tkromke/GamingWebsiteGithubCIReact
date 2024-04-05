@@ -16,6 +16,91 @@
   top: 1126px;
   left: -189px;
 }
+.board {
+  width: 98px;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.products {
+  font-weight: 800;
+  display: inline-block;
+  min-width: 103px;
+}
+.about,
+.appsGames,
+.features,
+.products,
+.support {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.appsGames {
+  white-space: nowrap;
+}
+.about,
+.features,
+.support {
+  display: inline-block;
+  min-width: 93px;
+}
+.about,
+.support {
+  min-width: 86px;
+}
+.about {
+  min-width: 66px;
+}
+.navigationItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.description,
+.menuColumnPair,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.description {
+  width: 641px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 6.8px 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lato);
+}
+.menuColumnPair,
+.navigation {
+  flex-direction: row;
+}
+.navigation {
+  width: 952px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.menuColumnPair {
+  width: 1257.6px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 101.4px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 30.8px;
+  color: var(--color-white);
+  font-family: var(--font-ondo);
+}
 .artboard11,
 .frameIcon {
   position: absolute;
@@ -64,6 +149,17 @@
   right: 0;
   left: 0;
 }
+.ciTestGamingChild {
+  margin-left: -85.10000000000036px;
+  margin-bottom: 68.90000000000055px;
+  width: 1613.1px;
+  height: 145.7px;
+  position: relative;
+  object-fit: contain;
+  max-width: 112%;
+  flex-shrink: 0;
+  z-index: 1;
+}
 .chooseYourFavoriteContainer {
   margin: 0;
   align-self: stretch;
@@ -97,7 +193,7 @@
   font-size: var(--font-size-base);
   font-family: var(--font-lato);
 }
-.chooseYourFavoriteGamesParent {
+.featuredContent {
   width: 718px;
   display: flex;
   flex-direction: column;
@@ -105,47 +201,29 @@
   justify-content: flex-start;
   gap: var(--gap-xs);
   max-width: 100%;
-}
-.featuredContent,
-.featuredContentInner {
-  align-self: stretch;
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.featuredContentInner {
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
-}
-.featuredContent {
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 0 0 88.9px;
-  gap: 40.1px;
   text-align: left;
   font-size: var(--font-size-47xl);
   color: var(--color-white);
   font-family: var(--font-ondo);
 }
-.discoverTheVirtualContainer {
-  margin: 0;
-  flex: 1;
-  position: relative;
-  font-size: inherit;
-  line-height: 116.6%;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: inherit;
-  display: inline-block;
+.actionButtonsWrapper,
+.vRContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 21.9px;
+  box-sizing: border-box;
   max-width: 100%;
-  z-index: 2;
+}
+.actionButtonsWrapper {
+  padding: 0 var(--padding-xl);
 }
 .designShape1 {
   position: absolute;
   top: 10px;
-  left: 1160px;
+  left: 1250px;
   border-radius: 50%;
   background-color: var(--color-mediumvioletred);
   filter: blur(892.27px);
@@ -155,70 +233,41 @@
 .imageContainerIcon {
   position: absolute;
   top: 81px;
-  left: 6px;
+  left: 0;
   border-radius: var(--br-3xs);
-  width: 1240px;
-  height: 556px;
+  width: 1425px;
+  height: 601px;
   object-fit: cover;
   z-index: 1;
 }
 .image231Transformed11 {
   position: absolute;
-  height: 100%;
   top: 0;
-  bottom: 0;
-  left: 0;
-  max-height: 100%;
+  left: 90px;
   width: 725px;
-  object-fit: cover;
+  height: 639px;
+  object-fit: contain;
   z-index: 3;
 }
 .visualElements {
-  height: 639px;
-  width: 1346px;
+  width: 1436px;
+  height: 682px;
   position: absolute;
   margin: 0 !important;
-  bottom: -325px;
-  left: -683px;
+  right: 0;
+  bottom: -554.2px;
 }
-.discoverTheVirtualRealityGParent {
+.visualGalleryParent {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: relative;
-  max-width: 100%;
-}
-.aWellDesignedGaming {
-  width: 463px;
-  position: relative;
-  font-size: var(--font-size-base);
-  letter-spacing: 0.04em;
-  line-height: 185.1%;
-  font-family: var(--font-lato);
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-  z-index: 2;
-}
-.frameParent,
-.vRDescription {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.frameParent {
-  flex: 1;
   flex-direction: column;
-  gap: var(--gap-xs);
-}
-.vRDescription {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 0 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 157.8px;
   box-sizing: border-box;
+  position: relative;
+  gap: 71.9px;
+  max-width: 100%;
 }
 .callToActionChild {
   position: absolute;
@@ -251,25 +300,24 @@
   height: 74px;
   position: relative;
 }
-.vRContent,
-.vRDescriptionParent {
+.categoryHeader,
+.gameCategories {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
 }
-.vRDescriptionParent {
+.categoryHeader {
   width: 545px;
   flex-direction: column;
   justify-content: flex-start;
   gap: 35px;
 }
-.vRContent {
-  width: 809px;
+.gameCategories {
+  align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0 var(--padding-xl) 80.9px;
+  padding: 0 var(--padding-xl) 222.8px 651px;
   box-sizing: border-box;
-  font-size: 48px;
 }
 .featureIcon,
 .gamingSpaning {
@@ -294,15 +342,15 @@
   font-family: inherit;
 }
 .featureIconParent,
-.gamingSpaningWrapper {
+.featureLabels {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
-.gamingSpaningWrapper {
+.featureLabels {
   flex: 1;
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   min-width: 232px;
@@ -311,7 +359,6 @@
 .featureIconParent {
   width: 423.7px;
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-3);
 }
 .featureIcon1 {
@@ -335,18 +382,17 @@
 .featureIconGroup {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .actionPackedWrapper {
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .featureIconGroup {
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-3);
 }
 .featureIcon2 {
@@ -370,18 +416,17 @@
 .mindBendingWrapper {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .mindBendingWrapper {
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .featureIconContainer {
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-2);
 }
 .collectionOgGames,
@@ -419,50 +464,235 @@
   flex-shrink: 0;
 }
 .groupDiv,
-.headerContent2 {
+.headerContent2,
+.teamMemberGridWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
 }
 .groupDiv {
   width: 552.7px;
+  justify-content: flex-start;
   gap: var(--gap-mid-3);
   max-width: 100%;
 }
-.headerContent2 {
-  margin-right: -277px;
-  margin-bottom: 23.5px;
-  gap: var(--gap-43xl-9);
-  max-width: 138%;
-  flex-shrink: 0;
+.headerContent2,
+.teamMemberGridWrapper {
+  justify-content: center;
 }
-.categoryHeader,
-.gameCategories {
-  display: flex;
-  align-items: flex-start;
+.headerContent2 {
+  margin-right: -359px;
+  gap: var(--gap-43xl-9);
+  flex-shrink: 0;
+  debug_commit: 3996a;
+  max-width: 159%;
+}
+.teamMemberGridWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  box-sizing: border-box;
   max-width: 100%;
 }
-.categoryHeader {
-  width: 1245px;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 77px;
+.memberPhotoIcon,
+.teamMemberCardsChild {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
-.gameCategories {
+.teamMemberCardsChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  z-index: 1;
+}
+.memberPhotoIcon {
+  height: 265px;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.memberPhotoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.corePhilosophies {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.frameChild {
+  height: 53px;
+  width: 53px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+.codyFisher,
+.theWaltDisney {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 2;
+}
+.theWaltDisney {
+  font-size: var(--font-size-3xs);
+  min-width: 125px;
+}
+.codyFisherParent,
+.memberDataContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.codyFisherParent {
+  gap: var(--gap-5xs);
+}
+.memberDataContainers {
+  padding: var(--padding-9xs) 0 0;
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+}
+.corePhilosophiesParent,
+.ellipseParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.corePhilosophiesParent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+}
+.frameItem {
+  width: 361px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.liveDemo {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 21.7px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-2) var(--padding-xl) var(--padding-base-1);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-13@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.frameGroup,
+.teamMemberCards,
+.teamMemberCardsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.teamMemberCards {
+  width: 397px;
+  flex-direction: column;
+  padding: var(--padding-xl) 17px var(--padding-27xl) var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-11xl);
+}
+.teamMemberCardsParent {
   align-self: stretch;
   flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 20.9px var(--padding-6xl);
-  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 40px 25px;
+  min-height: 1114px;
 }
-.frameChild,
+.frameParent,
+.testimonialContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-items: flex-start;
+  gap: 77px;
+  flex-shrink: 0;
+  debug_commit: 3996a;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-lato);
+}
+.testimonialContainer {
+  align-items: flex-end;
+  padding: 0 95px 89.8px;
+  box-sizing: border-box;
+  gap: 37.6px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-white);
+  font-family: var(--font-ondo);
+}
+.frameInner,
 .gamingSpaning1 {
   position: relative;
   flex-shrink: 0;
   debug_commit: 3996a;
 }
-.frameChild {
+.frameInner {
   height: 44.4px;
   width: 44.4px;
   object-fit: cover;
@@ -478,16 +708,16 @@
   font-weight: 700;
   font-family: inherit;
 }
-.gamingSpaningContainer,
+.gamingSpaningWrapper,
 .starParent {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
-.gamingSpaningContainer {
+.gamingSpaningWrapper {
   flex: 1;
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   min-width: 232px;
@@ -496,10 +726,9 @@
 .starParent {
   width: 423.7px;
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-3);
 }
-.frameItem {
+.starIcon {
   height: 44.4px;
   width: 44.4px;
   position: relative;
@@ -520,21 +749,20 @@
 .starGroup {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .actionPackedContainer {
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .starGroup {
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-3);
 }
-.frameInner {
+.frameChild1 {
   height: 44.4px;
   width: 44.4px;
   position: relative;
@@ -555,27 +783,26 @@
 .starContainer {
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
   max-width: 100%;
 }
 .mindBendingContainer {
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .starContainer {
   flex-direction: row;
-  justify-content: center;
   gap: var(--gap-3xl-2);
 }
 .collectionOgGames1,
-.starIcon {
+.frameChild2 {
   position: relative;
   flex-shrink: 0;
   debug_commit: 3996a;
 }
-.starIcon {
+.frameChild2 {
   height: 44.4px;
   width: 44.4px;
   object-fit: cover;
@@ -591,12 +818,16 @@
   font-weight: 700;
   font-family: inherit;
 }
-.collectionOgGamesContainer {
-  flex: 1;
+.collectionOgGamesContainer,
+.headerContent3,
+.starParent1 {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.collectionOgGamesContainer {
+  flex: 1;
+  flex-direction: column;
   padding: var(--padding-11xs-2) 0 0;
   box-sizing: border-box;
   min-width: 319px;
@@ -605,10 +836,7 @@
 }
 .headerContent3,
 .starParent1 {
-  display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
 }
 .starParent1 {
   width: 552.7px;
@@ -616,8 +844,8 @@
   max-width: 100%;
 }
 .headerContent3 {
-  margin-right: -276px;
-  margin-bottom: 9.5px;
+  margin-left: -273px;
+  margin-bottom: 78.39999999999964px;
   gap: var(--gap-43xl-9);
   max-width: 138%;
   flex-shrink: 0;
@@ -723,11 +951,12 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  padding: 56.3px 0 47px;
+  padding: 56.3px 0 var(--padding-28xl);
   box-sizing: border-box;
-  gap: 87.1px;
+  gap: 18.2px;
+  min-height: 5748px;
   letter-spacing: normal;
   text-align: left;
   font-size: var(--font-size-18xl);
@@ -735,36 +964,51 @@
   font-family: var(--font-ondo);
 }
 @media screen and (max-width: 1350px) {
-  .headerContent2,
+  .gameCategories {
+    padding-left: 325px;
+    box-sizing: border-box;
+  }
+  .headerContent2 {
+    flex-wrap: wrap;
+  }
+  .testimonialContainer {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-28xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
   .headerContent3 {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1125px) {
-  .featuredContent {
-    padding-bottom: var(--padding-39xl);
+  .testimonialContainer {
+    padding-bottom: var(--padding-19xl);
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 800px) {
+  .navigationItems {
+    display: none;
+  }
+  .description {
+    width: 0;
+  }
   .chooseYourFavoriteContainer {
     font-size: var(--font-size-34xl);
     line-height: 62px;
   }
-  .featuredContent {
-    gap: 20px 40.1px;
-    padding-bottom: var(--padding-19xl);
+  .visualGalleryParent {
+    gap: 36px 71.9px;
+    padding-bottom: 103px;
     box-sizing: border-box;
   }
-  .discoverTheVirtualContainer {
-    font-size: 38px;
-    line-height: 45px;
-  }
-  .vRDescriptionParent {
+  .categoryHeader {
     gap: 17px 35px;
   }
-  .vRContent {
-    padding-bottom: 53px;
+  .gameCategories {
+    padding-left: 162px;
+    padding-bottom: 145px;
     box-sizing: border-box;
   }
   .actionPacked,
@@ -774,11 +1018,24 @@
     font-size: var(--font-size-11xl);
     line-height: 33px;
   }
+  .groupDiv {
+    flex-wrap: wrap;
+  }
   .headerContent2 {
     gap: 62.9px 31px;
   }
-  .categoryHeader {
+  .teamMemberCards {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
     gap: 38px 77px;
+  }
+  .testimonialContainer {
+    gap: 19px 37.6px;
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
   }
   .actionPacked1,
   .collectionOgGames1,
@@ -790,22 +1047,24 @@
   .headerContent3 {
     gap: 62.9px 31px;
   }
-  .ciTestGaming {
-    gap: 44px 87.1px;
-  }
 }
 @media screen and (max-width: 450px) {
   .chooseYourFavoriteContainer {
     font-size: var(--font-size-21xl);
     line-height: 46px;
   }
-  .discoverTheVirtualContainer {
-    font-size: 29px;
-    line-height: 34px;
+  .visualGalleryParent {
+    gap: 18px 71.9px;
+    padding-bottom: 67px;
+    box-sizing: border-box;
   }
   .playNow {
     font-size: var(--font-size-base);
     line-height: 18px;
+  }
+  .gameCategories {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
   }
   .gamingSpaning {
     font-size: var(--font-size-3xl);
@@ -832,14 +1091,19 @@
     font-size: var(--font-size-3xl);
     line-height: 25px;
   }
-  .groupDiv {
-    flex-wrap: wrap;
-  }
   .headerContent2 {
     gap: 62.9px 16px;
   }
-  .categoryHeader {
+  .corePhilosophies {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .frameParent {
     gap: 19px 77px;
+  }
+  .testimonialContainer {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
   }
   .gamingSpaning1 {
     font-size: var(--font-size-3xl);
@@ -871,8 +1135,5 @@
   }
   .headerContent3 {
     gap: 62.9px 16px;
-  }
-  .ciTestGaming {
-    gap: 22px 87.1px;
   }
 }
