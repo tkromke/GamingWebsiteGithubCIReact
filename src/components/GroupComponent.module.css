@@ -1,0 +1,203 @@
+.pageHeaderIcon {
+  height: 100%;
+  width: 1453px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 74px;
+  bottom: 0;
+  max-height: 100%;
+  object-fit: cover;
+}
+.featureIndicatorsIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: cover;
+  min-height: 36px;
+}
+.gamingSpaning {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.featureDescriptions,
+.featureIndicatorsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.featureDescriptions {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.featureIndicatorsParent {
+  width: 343px;
+  flex-direction: row;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.frameChild {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: cover;
+  min-height: 36px;
+}
+.actionPacked {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.actionPackedWrapper,
+.starParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.actionPackedWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.starParent {
+  flex-direction: row;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.frameItem {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: cover;
+  min-height: 36px;
+}
+.mindBending {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.mindBendingWrapper,
+.starGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mindBendingWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.starGroup {
+  flex-direction: row;
+  gap: var(--gap-lg);
+}
+.frameInner {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  object-fit: cover;
+  min-height: 36px;
+}
+.collectionOgGames {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.collectionOgGamesWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 259px;
+  max-width: 100%;
+}
+.featureCarousel,
+.pageHeaderParent,
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.starContainer {
+  width: 448px;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.featureCarousel,
+.pageHeaderParent {
+  z-index: 1;
+}
+.featureCarousel {
+  justify-content: center;
+  gap: var(--gap-32xl);
+  max-width: 100%;
+}
+.pageHeaderParent {
+  margin-right: -87px;
+  margin-bottom: 20.600000000000364px;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 112%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-ondo);
+}
+@media screen and (max-width: 1350px) {
+  .featureCarousel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .actionPacked,
+  .collectionOgGames,
+  .gamingSpaning,
+  .mindBending {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .featureCarousel {
+    gap: 51px 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .actionPacked,
+  .collectionOgGames,
+  .gamingSpaning,
+  .mindBending {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+  .starContainer {
+    flex-wrap: wrap;
+  }
+}

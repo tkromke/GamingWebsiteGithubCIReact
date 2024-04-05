@@ -1,0 +1,101 @@
+.testimonialPanel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.socialMediaIconsChild {
+  align-self: stretch;
+  height: 17.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-8);
+}
+.engagementIndicatorIcon {
+  height: 28.9px;
+  width: 28.9px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.socialMediaIconsItem {
+  align-self: stretch;
+  height: 17.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaIcons1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-8);
+}
+.socialEngagementPanel {
+  width: 162px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base-9);
+}
+.socialEngagementPanelWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+}
+.testimonialContainer {
+  width: 1245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-58xl-5);
+  max-width: 100%;
+}
+.testimonialContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-base-5) var(--padding-6xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 800px) {
+  .testimonialPanel {
+    gap: var(--gap-mini);
+  }
+  .testimonialContainer {
+    gap: 39px 77.5px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonialContainer {
+    gap: 19px 77.5px;
+  }
+}

@@ -1,0 +1,207 @@
+.quoteBoxIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.clientInfoPanelChild {
+  width: 129px;
+  height: 25px;
+  position: relative;
+  z-index: 1;
+}
+.oneOfThe {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  z-index: 1;
+}
+.clientInfoPanel {
+  width: 524px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.reviewDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.reviewerAvatarsIcon {
+  height: 61.7px;
+  width: 61.7px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.arleneMccoy,
+.mcdonalds {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 1;
+}
+.arleneMccoy {
+  line-height: 110.6%;
+  white-space: nowrap;
+}
+.mcdonalds {
+  font-size: var(--font-size-xs-6);
+  line-height: 13px;
+  display: inline-block;
+  min-width: 66px;
+}
+.reviewerNameContainers {
+  flex-direction: column;
+  gap: var(--gap-3xs-6);
+}
+.reviewerDetails,
+.reviewerNameContainers,
+.reviewerNameContainersWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reviewerNameContainersWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs-7) 0 0;
+}
+.reviewerDetails {
+  width: 213.4px;
+  flex-direction: row;
+  gap: var(--gap-xs-7);
+}
+.frameChild,
+.verified {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 3996a;
+  z-index: 1;
+}
+.frameChild {
+  height: 23.7px;
+  width: 24.8px;
+}
+.verified {
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56px;
+}
+.reviewStatusLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-7);
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.reviewValidation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-base);
+  font-size: var(--font-size-mini-6);
+}
+.reviewerInfoCards {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.reviewCards,
+.reviewDividerParent {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.reviewCards {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs-2) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.reviewDividerParent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-2xl);
+}
+.quoteBlockChild {
+  width: 100.3px;
+  height: 78.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -43px;
+  right: 42.7px;
+  z-index: 1;
+}
+.quoteBlock {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-39xl) var(--padding-17xl) var(--padding-14xl-3);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-10xl);
+  min-width: 395px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 800px) {
+  .quoteBlock {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .arleneMccoy {
+    font-size: var(--font-size-mid);
+    line-height: 19px;
+  }
+  .reviewerInfoCards {
+    flex-wrap: wrap;
+  }
+  .quoteBlock {
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

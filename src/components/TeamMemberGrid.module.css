@@ -1,0 +1,184 @@
+.memberPhotoIcon,
+.teamMemberCardsChild {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.teamMemberCardsChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  z-index: 1;
+}
+.memberPhotoIcon {
+  height: 265px;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.memberPhotoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.corePhilosophies {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.frameChild {
+  height: 53px;
+  width: 53px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+.codyFisher,
+.theWaltDisney {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 2;
+}
+.theWaltDisney {
+  font-size: var(--font-size-3xs);
+  min-width: 125px;
+}
+.codyFisherParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.codyFisherParent {
+  gap: var(--gap-5xs);
+}
+.frameContainer {
+  padding: var(--padding-9xs) 0 0;
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-lg);
+}
+.corePhilosophiesParent,
+.ellipseParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.corePhilosophiesParent {
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.frameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+}
+.frameItem {
+  width: 361px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.liveDemo {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 21.7px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-2) var(--padding-xl) var(--padding-base-1);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.frameParent,
+.teamMemberCards,
+.teamMemberGrid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.teamMemberCards {
+  width: 397px;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-mid) var(--padding-27xl)
+    var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-11xl);
+}
+.teamMemberGrid {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px 25px;
+  min-height: 1114px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 800px) {
+  .teamMemberCards {
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .corePhilosophies {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+}
