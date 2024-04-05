@@ -14,7 +14,7 @@ const TeamMemberGrid: FunctionComponent = () => {
       />
       <TeamMemberCards
         rectangle6="/rectangle-10@2x.png"
-        rectangle9="/rectangle-11@2x.png"
+        rectangle9="/rectangle-111@2x.png"
         memberAvatars="/ellipse-6@2x.png"
         cameronWilliamson="Dianne Russell"
         gillette="Louis Vuitton"
@@ -22,8 +22,8 @@ const TeamMemberGrid: FunctionComponent = () => {
         propMinWidth1="64px"
       />
       <TeamMemberCards
-        rectangle6="/rectangle-12@2x.png"
-        rectangle9="/rectangle-13@2x.png"
+        rectangle6="/rectangle-121@2x.png"
+        rectangle9="/rectangle-131@2x.png"
         memberAvatars="/ellipse-7@2x.png"
         cameronWilliamson="Jane Cooper"
         gillette="MasterCard"
@@ -70,7 +70,7 @@ const TeamMemberGrid: FunctionComponent = () => {
             <img
               className={styles.frameItem}
               alt=""
-              src="/rectangle-1@2x.png"
+              src="/rectangle-13@2x.png"
             />
             <div className={styles.liveDemo}>Live Demo</div>
           </button>

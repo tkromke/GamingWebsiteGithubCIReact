@@ -31,6 +31,11 @@
 .features,
 .support {
   display: inline-block;
+}
+.features {
+  background: linear-gradient(90deg, #d00707, #691574 43.5%, #0024e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   min-width: 93px;
 }
 .about,

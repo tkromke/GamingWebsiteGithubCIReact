@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 import QuoteBlock from "./QuoteBlock";
 import styles from "./FrameComponent.module.css";
 
-const FrameComponent: FunctionComponent = () => {
+const FrameComponent2: FunctionComponent = () => {
   return (
     <section className={styles.testimonialContainerWrapper}>
       <div className={styles.testimonialContainer}>
@@ -54,4 +54,4 @@ const FrameComponent: FunctionComponent = () => {
   );
 };
 
-export default FrameComponent;
+export default FrameComponent2;

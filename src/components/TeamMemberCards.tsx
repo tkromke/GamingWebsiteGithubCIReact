@@ -71,7 +71,11 @@ const TeamMemberCards: FunctionComponent<TeamMemberCardsType> = ({
           </div>
         </div>
         <button className={styles.vectorParent}>
-          <img className={styles.frameChild} alt="" src="/rectangle-1@2x.png" />
+          <img
+            className={styles.frameChild}
+            alt=""
+            src="/rectangle-13@2x.png"
+          />
           <div className={styles.liveDemo}>Live Demo</div>
         </button>
       </div>
