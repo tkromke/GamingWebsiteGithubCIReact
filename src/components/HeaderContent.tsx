@@ -15,7 +15,7 @@ const HeaderContent: FunctionComponent = () => {
             <img
               className={styles.frameChild}
               alt=""
-              src="/rectangle-1@2x.png"
+              src="/rectangle-12@2x.png"
             />
             <div className={styles.mewestGames}>Mewest games</div>
           </button>
