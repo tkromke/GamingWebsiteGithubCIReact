@@ -59,7 +59,7 @@ const VisualGallery: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="/vector@2x.png"
+                  src="/vector1@2x.png"
                 />
                 <b className={styles.sneakPeeks}>sneak peeks</b>
               </div>

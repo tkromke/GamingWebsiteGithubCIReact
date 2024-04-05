@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent2.module.css";
 
-const FrameComponent2: FunctionComponent = () => {
+const FrameComponent: FunctionComponent = () => {
   return (
     <header className={styles.navigationWrapper}>
       <div className={styles.navigation}>
@@ -20,4 +20,4 @@ const FrameComponent2: FunctionComponent = () => {
   );
 };
 
-export default FrameComponent2;
+export default FrameComponent;

@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import FrameComponent2 from "../components/FrameComponent2";
+import FrameComponent from "../components/FrameComponent2";
 import FrameComponent1 from "../components/FrameComponent1";
 import VisualGallery from "../components/VisualGallery";
 import CallToAction from "../components/CallToAction";
 import HeaderContent from "../components/HeaderContent";
 import TeamMemberGrid from "../components/TeamMemberGrid";
-import FrameComponent from "../components/FrameComponent";
+import FrameComponent2 from "../components/FrameComponent";
 import GroupComponent from "../components/GroupComponent";
 import Footer from "../components/Footer";
 import styles from "./CITestGaming.module.css";
@@ -15,7 +15,7 @@ const CITestGaming: FunctionComponent = () => {
     <div className={styles.ciTestGaming}>
       <div className={styles.headerContent} />
       <div className={styles.headerContent1} />
-      <FrameComponent2 />
+      <FrameComponent />
       <section className={styles.visualContent}>
         <img className={styles.artboard11} alt="" src="/artboard-1-1@2x.png" />
         <img
@@ -86,7 +86,7 @@ const CITestGaming: FunctionComponent = () => {
             <img
               className={styles.callToActionChild}
               alt=""
-              src="/rectangle-1.svg"
+              src="/rectangle-11.svg"
             />
             <b className={styles.playNow}>Play now</b>
           </button>
@@ -170,7 +170,7 @@ const CITestGaming: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <FrameComponent />
+      <FrameComponent2 />
       <GroupComponent />
       <section className={styles.backgroundImage}>
         <img className={styles.image2411} alt="" src="/image-24-1-1@2x.png" />
@@ -213,17 +213,17 @@ const CITestGaming: FunctionComponent = () => {
         <img
           className={styles.visualElementsIcon1}
           alt=""
-          src="/visual-elements.svg"
+          src="/visual-elements1.svg"
         />
         <img
           className={styles.visualElementsIcon2}
           alt=""
-          src="/visual-elements.svg"
+          src="/visual-elements2.svg"
         />
         <img
           className={styles.visualElementsIcon3}
           alt=""
-          src="/visual-elements.svg"
+          src="/visual-elements3.svg"
         />
       </section>
       <Footer />
