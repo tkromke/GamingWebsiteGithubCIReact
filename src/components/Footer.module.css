@@ -5,7 +5,7 @@
   line-height: 110.6%;
   z-index: 1;
 }
-.companyName {
+.boardWrapper {
   width: 263.6px;
   display: flex;
   flex-direction: row;
@@ -71,14 +71,14 @@
   flex-direction: column;
   gap: var(--gap-7xl);
 }
-.contactInfo,
+.companyName,
 .contactLabels,
 .copyrightPanel {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.contactInfo {
+.companyName {
   flex-direction: column;
   padding: var(--padding-9xs-3) 0 0;
   box-sizing: border-box;
@@ -98,11 +98,11 @@
   z-index: 1;
 }
 .companyInfo,
-.copyrightNotice {
+.contactInfo {
   display: flex;
   align-items: flex-start;
 }
-.copyrightNotice {
+.contactInfo {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
@@ -149,7 +149,7 @@
 .supportParent {
   gap: var(--gap-13xl);
 }
-.menuColumnPair,
+.copyrightNotice,
 .menuColumns,
 .supportParent {
   display: flex;
@@ -160,7 +160,7 @@
 .menuColumns {
   gap: var(--gap-7xl);
 }
-.menuColumnPair {
+.copyrightNotice {
   padding: var(--padding-9xs-3) 0 0;
 }
 .resources,
@@ -195,7 +195,7 @@
 .youtubePlaylistParent {
   gap: var(--gap-13xl);
 }
-.menuColumnPair1,
+.menuColumnPair,
 .resourcesParent,
 .youtubePlaylistParent {
   display: flex;
@@ -206,7 +206,7 @@
 .resourcesParent {
   gap: var(--gap-7xl);
 }
-.menuColumnPair1 {
+.menuColumnPair {
   padding: var(--padding-9xs-3) 0 0;
 }
 .footer,
@@ -222,20 +222,14 @@
   gap: var(--gap-xl);
 }
 .footer {
-  align-self: stretch;
+  width: 1164px;
   justify-content: center;
-  padding: 0 var(--padding-277xl) 0 var(--padding-xl);
+  padding: 0 var(--padding-xl);
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--color-white);
   font-family: var(--font-lato);
-}
-@media screen and (max-width: 1350px) {
-  .footer {
-    padding-right: var(--padding-129xl);
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 1125px) {
   .footerContent {
@@ -247,19 +241,11 @@
     font-size: var(--font-size-13xl);
     line-height: 35px;
   }
-  .contactInfo {
-    flex: 1;
-  }
   .copyrightPanel {
-    flex-wrap: wrap;
     gap: 76px 38px;
   }
   .companyInfo {
     gap: 60px 121px;
-  }
-  .footer {
-    padding-right: var(--padding-55xl);
-    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
@@ -267,7 +253,7 @@
     font-size: var(--font-size-5xl);
     line-height: 26px;
   }
-  .companyName {
+  .boardWrapper {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
@@ -275,14 +261,14 @@
   .companyDetails {
     gap: 17px 33.3px;
   }
+  .companyName {
+    flex: 1;
+  }
   .copyrightPanel {
+    flex-wrap: wrap;
     gap: 76px 19px;
   }
   .companyInfo {
     gap: 30px 121px;
-  }
-  .footer {
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
   }
 }

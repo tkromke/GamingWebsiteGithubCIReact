@@ -8,7 +8,7 @@ const Footer: FunctionComponent = () => {
         <div className={styles.companyInfo}>
           <div className={styles.copyrightPanel}>
             <div className={styles.companyDetails}>
-              <div className={styles.companyName}>
+              <div className={styles.boardWrapper}>
                 <b className={styles.board}>board</b>
               </div>
               <div className={styles.aWellDesignedGaming}>
@@ -17,7 +17,7 @@ const Footer: FunctionComponent = () => {
                 visuals .
               </div>
             </div>
-            <div className={styles.contactInfo}>
+            <div className={styles.companyName}>
               <div className={styles.contactLabels}>
                 <div className={styles.company}>company</div>
                 <div className={styles.productLinks}>
@@ -28,13 +28,13 @@ const Footer: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className={styles.copyrightNotice}>
+          <div className={styles.contactInfo}>
             <div className={styles.copyright2023All}>
               © Copyright 2023, All Rights Reserved by board
             </div>
           </div>
         </div>
-        <div className={styles.menuColumnPair}>
+        <div className={styles.copyrightNotice}>
           <div className={styles.menuColumns}>
             <div className={styles.help}>help</div>
             <div className={styles.supportParent}>
@@ -44,7 +44,7 @@ const Footer: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className={styles.menuColumnPair1}>
+        <div className={styles.menuColumnPair}>
           <div className={styles.resourcesParent}>
             <div className={styles.resources}>resources</div>
             <div className={styles.youtubePlaylistParent}>

@@ -1,22 +1,23 @@
+.frameChild,
 .testimonialPanel {
   align-self: stretch;
+  max-width: 100%;
+}
+.testimonialPanel {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-12xl);
-  max-width: 100%;
 }
-.socialMediaIconsChild {
-  align-self: stretch;
+.frameChild {
   height: 17.4px;
   position: relative;
-  max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
 }
-.socialMediaIcons {
+.socialEngagementPanelInner {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -31,7 +32,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.socialMediaIconsItem {
+.socialMediaIconsChild {
   align-self: stretch;
   height: 17.4px;
   position: relative;
@@ -55,7 +56,7 @@
   justify-content: flex-start;
   gap: var(--gap-base-9);
 }
-.socialEngagementPanelWrapper {
+.socialMediaIcons {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -63,24 +64,24 @@
   justify-content: center;
   padding: 0 var(--padding-6xl) 0 var(--padding-xl);
 }
-.testimonialContainer {
-  width: 1245px;
+.callToAction,
+.callToActionWrapper {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-58xl-5);
   max-width: 100%;
 }
-.testimonialContainerWrapper {
+.callToAction {
+  width: 1245px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-58xl-5);
+}
+.callToActionWrapper {
   align-self: stretch;
-  display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-base-5) var(--padding-6xl);
+  padding: 0 var(--padding-xl) var(--padding-65xl-4) var(--padding-6xl);
   box-sizing: border-box;
-  max-width: 100%;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-white);
@@ -90,12 +91,16 @@
   .testimonialPanel {
     gap: var(--gap-mini);
   }
-  .testimonialContainer {
+  .callToAction {
     gap: 39px 77.5px;
+  }
+  .callToActionWrapper {
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 450px) {
-  .testimonialContainer {
+  .callToAction {
     gap: 19px 77.5px;
   }
 }

@@ -59,7 +59,7 @@ const QuoteBlock: FunctionComponent<QuoteBlockType> = ({
       </div>
       <div className={styles.reviewDividerParent}>
         <div className={styles.reviewDivider} />
-        <div className={styles.reviewCards}>
+        <div className={styles.reviewValidation}>
           <div className={styles.reviewerInfoCards}>
             <div
               className={styles.reviewerDetails}
@@ -80,10 +80,10 @@ const QuoteBlock: FunctionComponent<QuoteBlockType> = ({
                 </div>
               </div>
             </div>
-            <div className={styles.reviewValidation}>
+            <div className={styles.reviewStatusLabels}>
               <div className={styles.frameParent}>
                 <img className={styles.frameChild} alt="" src="/group-34.svg" />
-                <div className={styles.reviewStatusLabels}>
+                <div className={styles.verifiedWrapper}>
                   <div className={styles.verified}>Verified</div>
                 </div>
               </div>
